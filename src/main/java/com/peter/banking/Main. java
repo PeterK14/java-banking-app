@@ -1,0 +1,23 @@
+package com.peter. banking;
+
+public class Main{
+public static void main (String [] args){
+Bank bank = new Bank ();
+
+// Add some accounts
+bank.addAccount ( "Peter",
+2000.00);
+bank.addAccount("Themba",800.00);
+
+// Perform transactions 
+Account Busi = 
+bank.getAccount("Busi");
+busi.withdraw (120);
+
+Account. getAccount ("Themba");
+themba.withdraw(100);
+//Display all the accounts and their balances 
+bank.showAllAccounts();
+
+}
+}
